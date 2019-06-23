@@ -1,0 +1,41 @@
+{
+  "name": "@gabeochoa/basketcase",
+  "version": "0.1.0",
+  "description": "Generate Faces",
+  "main": "basketcase.min.umd.js",
+  "files": [
+    "basketcase.min.umd.js",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabeochoa/basketcase.git"
+  },
+  "keywords": [
+    "face",
+    "generation"
+  ],
+  "author": "@gabeochoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabeochoa/basketcase/issues"
+  },
+  "homepage": "https://github.com/gabeochoa/basketcase#readme",
+  "devDependencies": {
+    "babel-minify": "^0.5.0",
+    "jest": "^24.7.1",
+    "jest-silent-reporter": "^0.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1"
+  },
+  "dependencies": {
+    "paper": "^0.12.3"
+  }
+}
